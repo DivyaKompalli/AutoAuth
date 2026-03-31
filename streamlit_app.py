@@ -7,10 +7,10 @@ from typing import Any, Dict, List
 
 import streamlit as st
 
-from appeal_agent import generate_appeal
-from clinical_reader_agent import extract as clinical_extract
-from policy_agent import run_policy_agent
-from form_filler import fill_pa_form
+from src.agents.appeal_agent import generate_appeal
+from src.agents.clinical_reader_agent import extract as clinical_extract
+from src.agents.policy_agent import run_policy_agent
+from src.core.form_filler import fill_pa_form
 
 
 # ─── Helpers ────────────────────────────────────────────────────────────────
@@ -835,7 +835,7 @@ with right:
 
             # Auto-fill the PA Form PDF
             patient_id_label = str(input_data) if isinstance(input_data, int) else "ehr"
-            template_pdf = "PA-Request-Form-UHC-Community-Plan.pdf"
+            template_pdf = "data/inputs/PA-Request-Form-UHC-Community-Plan.pdf"
             output_pdf = OUTPUT_DIR / f"patient_{patient_id_label}_filled_form.pdf"
 
             labs_evidence = clinical_bundle.get("supporting_evidence", "")

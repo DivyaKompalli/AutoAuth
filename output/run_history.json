@@ -419,5 +419,17 @@
     ],
     "status": "PENDING_MORE_INFO",
     "confidence": 95
+  },
+  {
+    "ts": "2026-03-31 11:32:26",
+    "payer_id": "aetna",
+    "cpt_codes": [
+      ""
+    ],
+    "icd_codes": [
+      "R52"
+    ],
+    "status": "PENDING_MORE_INFO",
+    "confidence": 95
   }
 ]

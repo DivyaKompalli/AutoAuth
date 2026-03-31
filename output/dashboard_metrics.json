@@ -1,8 +1,8 @@
 {
-  "total_runs": 33,
+  "total_runs": 39,
   "approvals": 7,
-  "denials": 5,
+  "denials": 11,
   "pending_more_info": 21,
   "errors": 0,
-  "cumulative_days_saved": 36.5
+  "cumulative_days_saved": 42.5
 }

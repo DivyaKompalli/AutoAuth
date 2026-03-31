@@ -443,5 +443,86 @@
     ],
     "status": "PENDING_MORE_INFO",
     "confidence": 0
+  },
+  {
+    "ts": "2026-03-31 14:10:52",
+    "payer_id": "uhc",
+    "cpt_codes": [
+      ""
+    ],
+    "icd_codes": [
+      "R52"
+    ],
+    "status": "DENIED",
+    "confidence": 95
+  },
+  {
+    "ts": "2026-03-31 14:12:25",
+    "payer_id": "uhc",
+    "cpt_codes": [
+      "94640"
+    ],
+    "icd_codes": [
+      "J45.51",
+      "J45.901",
+      "J45.41",
+      "E11.9"
+    ],
+    "status": "DENIED",
+    "confidence": 85
+  },
+  {
+    "ts": "2026-03-31 14:14:43",
+    "payer_id": "uhc",
+    "cpt_codes": [
+      ""
+    ],
+    "icd_codes": [
+      "R05.9"
+    ],
+    "status": "DENIED",
+    "confidence": 100
+  },
+  {
+    "ts": "2026-03-31 14:15:28",
+    "payer_id": "uhc",
+    "cpt_codes": [
+      "94640"
+    ],
+    "icd_codes": [
+      "J45.51",
+      "J45.901",
+      "J45.41"
+    ],
+    "status": "DENIED",
+    "confidence": 95
+  },
+  {
+    "ts": "2026-03-31 14:21:06",
+    "payer_id": "uhc",
+    "cpt_codes": [
+      "94640"
+    ],
+    "icd_codes": [
+      "J45.51",
+      "J45.901",
+      "J45.41"
+    ],
+    "status": "DENIED",
+    "confidence": 95
+  },
+  {
+    "ts": "2026-03-31 14:31:50",
+    "payer_id": "uhc",
+    "cpt_codes": [
+      "94640"
+    ],
+    "icd_codes": [
+      "J45.51",
+      "J45.901",
+      "J45.41"
+    ],
+    "status": "DENIED",
+    "confidence": 95
   }
 ]

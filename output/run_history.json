@@ -431,5 +431,17 @@
     ],
     "status": "PENDING_MORE_INFO",
     "confidence": 95
+  },
+  {
+    "ts": "2026-03-31 11:46:18",
+    "payer_id": "uhc",
+    "cpt_codes": [
+      ""
+    ],
+    "icd_codes": [
+      "R52"
+    ],
+    "status": "PENDING_MORE_INFO",
+    "confidence": 0
   }
 ]
